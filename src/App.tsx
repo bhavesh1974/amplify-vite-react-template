@@ -1,6 +1,6 @@
 import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
-import { fetchAuthSession, fetchUserAttributes, getCurrentUser } from 'aws-amplify/auth';
+import { fetchAuthSession, fetchUserAttributes } from 'aws-amplify/auth';
 import { useEffect } from "react";
 import { Hub } from 'aws-amplify/utils';
 
