@@ -70,7 +70,7 @@ function App() {
   });
 
   return (
-    <Authenticator hideSignUp  signUpAttributes={[
+    <Authenticator signUpAttributes={[
       'name'
     ]}>
       {({ signOut, user }) => (
